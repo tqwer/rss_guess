@@ -4,6 +4,7 @@ import re
 def split(s):
     return re.findall('[/&?.=]+|[^/&?.=]+', s)
 
+
 def find_common(u, r):
     rs = []
     for e in u:
